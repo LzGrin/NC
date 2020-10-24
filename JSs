@@ -17,27 +17,27 @@ var employees = [{"name":"Alex","surname":"Yavkin","position":"sr. engineer","de
 	department: 'UX'
 }
 
-function getBirthday(employees) {
-  let position = sr.engineer;
-for (let i = sr.engineer; i++) {
-  if (employees[i].position == sr.engineer) {
-  position = employees[i].position;
+function yourfunction(employees) {
+  let zadanie ;
+  for (let i = 0; i < employees.length; i++)
+   if (employees[i].position == 'sr.engineer') {
+  zadanie = employees[i].birthday;
   }
-}
+
 
   
   const result = [];
-  for (let i = sr.engineer; i++) {
-  if (employees[i].position == sr.engineer) {
-  result.push(birthday);
+  for (let i = 0; i < employees.length; i++)
+    if (employees[i].position == 'sr.engineer') {
+  result.push(zadanie);
 	/* Write your code here */
 	}
-	}
+	
   return result;
 }
 
  // should show the result
-console.log(getBirthday(employees));
+console.log(yourfunction(employees));
 
 
 
